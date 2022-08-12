@@ -47,18 +47,32 @@ challenge is to build a Node.js command-line application that takes in informati
 - https://bootcamp.uclaextension.edu/coding/
 
 #used tools
--vsCode
--keyboard
+- vsCode
+- keyboard
+
+
+#how to use
+must have NodeJS installed
+##Bash:
+- //for jest testing
+- $ npm run test
+- //for team generator from JavaScript to HTML
+- $ node index
 
 #demo
 !!new uploaded the full to youtube
+![Watch the YouTube video](https://youtu.be/iYPtJcDQzSk)
 
-https://youtu.be/iYPtJcDQzSk<VIDEO URL>
 
 <video src="https://user-images.githubusercontent.com/67552318/184282076-841f682b-4278-46a0-b872-4c6185b6df57.mp4"></video>
 https://user-images.githubusercontent.com/67552318/184282076-841f682b-4278-46a0-b872-4c6185b6df57.mp4
 <video src="https://user-images.githubusercontent.com/67552318/184282092-f77b51d8-a91a-4697-9a9c-156078c8793a.mp4"></video>
 https://user-images.githubusercontent.com/67552318/184282092-f77b51d8-a91a-4697-9a9c-156078c8793a.mp4
+
+#video google drive
+- https://drive.google.com/file/d/1zXYXZdLt2rDAznTpZWq0p-gJKNkAdV0r/view?usp=sharing
+- https://drive.google.com/file/d/1_SYfjnuL-AK61afVAgJ4xQkZ2UkVl1YO/view?usp=sharing
+- https://drive.google.com/file/d/1PgB0gxe2IO70bpRs9p843RsQG9Cvbiqa/view?usp=sharing
 
 
 #gitpages link
