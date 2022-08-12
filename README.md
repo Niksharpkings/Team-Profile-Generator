@@ -50,6 +50,15 @@ challenge is to build a Node.js command-line application that takes in informati
 -vsCode
 -keyboard
 
+
+#how to use
+must have NodeJS installed
+Bash:
+//for jest testing
+$ npm run test
+//for team generator from JavaScript to HTML
+$ node index
+
 #demo
 !!new uploaded the full to youtube
 ![Watch the YouTube video](https://youtu.be/iYPtJcDQzSk)
