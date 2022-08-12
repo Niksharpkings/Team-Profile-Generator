@@ -51,7 +51,7 @@ challenge is to build a Node.js command-line application that takes in informati
 -keyboard
 
 #demo
-<video src='https://user-images.githubusercontent.com/67552318/184282076-841f682b-4278-46a0-b872-4c6185b6df57.mp4' />
+<video src="https://user-images.githubusercontent.com/67552318/184282076-841f682b-4278-46a0-b872-4c6185b6df57.mp4"></video>
 https://user-images.githubusercontent.com/67552318/184282076-841f682b-4278-46a0-b872-4c6185b6df57.mp4
 https://user-images.githubusercontent.com/67552318/184282092-f77b51d8-a91a-4697-9a9c-156078c8793a.mp4
 
