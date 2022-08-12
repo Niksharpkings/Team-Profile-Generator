@@ -1,15 +1,15 @@
-# Team-Profile-Generator
+# ![image](https://user-images.githubusercontent.com/67552318/184291983-c34b1552-d50e-4f29-b24d-039bcc0a5aee.png)
 challenge is to build a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person. Because testing is key to making code maintainable,  write unit tests for each part of your code and ensure that it passes all of them.
 
 ![image](https://user-images.githubusercontent.com/67552318/184286794-dfe5489c-9e3c-4b15-b536-a0066464bc6f.png)
 ![image](https://user-images.githubusercontent.com/67552318/184291907-0a813f87-436a-45e2-a35a-a8545726a494.png)
 
-#User Story
+# User Story
 - AS A manager
 - I WANT to generate a webpage that displays my team's basic info
 - SO THAT I have quick access to their emails and GitHub profiles
 
-#Acceptance Criteria
+# Acceptance Criteria
 - GIVEN a command-line application that accepts user input
 - WHEN I am prompted for my team members and their information
 - THEN an HTML file is generated that displays a nicely formatted team roster based on user input
@@ -28,7 +28,7 @@ challenge is to build a Node.js command-line application that takes in informati
 - WHEN I decide to finish building my team
 - THEN I exit the application, and the HTML is generated
 
-#used technologies
+# Technologies
 - Node.js
 - npm
 - inquirer
@@ -42,17 +42,17 @@ challenge is to build a Node.js command-line application that takes in informati
 - bootstrap.js
 - popper.js
 
-#used resources
+# resources
 - https://www.npmjs.com/package/inquirer
 - https://www.npmjs.com/package/fs
 - https://bootcamp.uclaextension.edu/coding/
 
-#used tools
+# Tools
 - vsCode
 - keyboard
 
 
-#how to use
+# Ghow to use
 must have NodeJS installed
 ##Bash:
 - //for jest testing
@@ -60,7 +60,7 @@ must have NodeJS installed
 - //for team generator from JavaScript to HTML
 - $ node index
 
-#demo
+# Demo
 !!new uploaded the full to youtube
 ![Watch the YouTube video](https://youtu.be/iYPtJcDQzSk)
 
@@ -70,14 +70,14 @@ https://user-images.githubusercontent.com/67552318/184282076-841f682b-4278-46a0-
 <video src="https://user-images.githubusercontent.com/67552318/184282092-f77b51d8-a91a-4697-9a9c-156078c8793a.mp4"></video>
 https://user-images.githubusercontent.com/67552318/184282092-f77b51d8-a91a-4697-9a9c-156078c8793a.mp4
 
-#video google drive
+# Video google drive
 - https://drive.google.com/file/d/1zXYXZdLt2rDAznTpZWq0p-gJKNkAdV0r/view?usp=sharing
 - https://drive.google.com/file/d/1_SYfjnuL-AK61afVAgJ4xQkZ2UkVl1YO/view?usp=sharing
 - https://drive.google.com/file/d/1PgB0gxe2IO70bpRs9p843RsQG9Cvbiqa/view?usp=sharing
 
 
-#gitpages link
+# Gitpages link
 - https://niksharpkings.github.io/Team-Profile-Generator/
 
-#github repo link
+# Github repo link
 - https://github.com/Niksharpkings/Team-Profile-Generator/
