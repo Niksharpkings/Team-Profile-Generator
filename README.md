@@ -1,6 +1,8 @@
 # Team-Profile-Generator
 challenge is to build a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person. Because testing is key to making code maintainable,  write unit tests for each part of your code and ensure that it passes all of them.
 
+![image](https://user-images.githubusercontent.com/67552318/184282832-469672fc-d662-45b5-9e56-5ca8e92e7f29.png)
+
 #User Story
 - AS A manager
 - I WANT to generate a webpage that displays my team's basic info
@@ -47,6 +49,10 @@ challenge is to build a Node.js command-line application that takes in informati
 #used tools
 -vsCode
 -keyboard
+
+#demo
+![video](https://user-images.githubusercontent.com/67552318/184282076-841f682b-4278-46a0-b872-4c6185b6df57.mp4)
+![video](https://user-images.githubusercontent.com/67552318/184282092-f77b51d8-a91a-4697-9a9c-156078c8793a.mp4)
 
 #gitpages link
 - https://niksharpkings.github.io/Team-Profile-Generator/
