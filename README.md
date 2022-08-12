@@ -2,6 +2,7 @@
 challenge is to build a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person. Because testing is key to making code maintainable,  write unit tests for each part of your code and ensure that it passes all of them.
 
 ![image](https://user-images.githubusercontent.com/67552318/184286794-dfe5489c-9e3c-4b15-b536-a0066464bc6f.png)
+![image](https://user-images.githubusercontent.com/67552318/184291907-0a813f87-436a-45e2-a35a-a8545726a494.png)
 
 #User Story
 - AS A manager
