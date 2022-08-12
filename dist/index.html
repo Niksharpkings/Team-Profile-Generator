@@ -1,13 +1,4 @@
-// export function to generate entire page
-// const teamArray = require('../index.js');
-// theTeamArray
-// console.log(templateData, "templateData + 1");
-// const {teamGenDataArr, ...header} = templateData;
-// console.log(templateData, "templateData + 2");
-// console.log(header, "header + 1");
 
-const bodyTemplate = function (templateData) {
-  return `
   <!DOCTYPE html>
   <html lang="en">
   <head>
@@ -46,7 +37,129 @@ const bodyTemplate = function (templateData) {
         <nav class="flex-row">
         <div class="container">
         <div id="team-members" class="row justify-content-center">
-        ${templateData}
+        
+  <div class="col-4 mt-1">
+      <div class="card">
+          <div class="bg-danger card-header text-dark">
+          <h1>
+          <i class="fa-solid fa-user-tie mr-4"></i>
+          &nbsp;Manager
+          </h1>
+              <h2>
+              Nik Sharpio
+              </h1>
+          </div>
+          <div class="p-2 bg-dark">
+              <ul class="list-group list-group-flush card my-2">
+                  <li class="list-group-item">
+                  ID: 1
+                  </li>
+                  <li class="list-group-item">
+                  Email:
+                  <a href="mailto:niksharpkings@gmail.com">
+                  niksharpkings@gmail.com
+                  </a>
+                  </li>
+                  <li class="list-group-item">
+                  Office number: 421234
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-4 mt-1">
+      <div class="card">
+          <div class="bg-warning card-header text-dark">
+          <h1><i class="fa-solid fa-user-gear mr-4"></i>
+          &nbsp;Engineer
+          </h1>
+              <h2>
+              alex s
+              </h2>
+          </div>
+          <div class="p-2 bg-dark">
+              <ul class="list-group list-group-flush card my-2">
+                  <li class="list-group-item">
+                  ID: 2
+                  </li>
+                  <li class="list-group-item">
+                  Email:
+                  <a href="mailto:alex@gmail.com">
+                  alex@gmail.com
+                  </a>
+                  </li>
+                  <li class="list-group-item">
+                  GitHub:
+                  <a href="https://github.com/alexcool">
+                  alexcool
+                  </a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-4 mt-1">
+      <div class="card">
+          <div class="bg-success card-header text-dark">
+          <h1><i class="fa-solid fa-school mr-4"></i>
+          Intern
+          </h1>
+          <h2>
+          ilon val
+          </h2>
+          </div>
+          <div class="p-2 bg-dark">
+              <ul class="list-group list-group-flush card my-2">
+                  <li class="list-group-item">
+                  ID: 3
+                  </li>
+                  <li class="list-group-item">
+                  Email:
+                  <a href="mailto:ilonval@okay.by">
+                  ilonval@okay.by</a>
+                  </li>
+                  <li class="list-group-item">
+                  School: ucla
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-4 mt-1">
+      <div class="card">
+          <div class="bg-warning card-header text-dark">
+          <h1><i class="fa-solid fa-user-gear mr-4"></i>
+          &nbsp;Engineer
+          </h1>
+              <h2>
+              joe doe
+              </h2>
+          </div>
+          <div class="p-2 bg-dark">
+              <ul class="list-group list-group-flush card my-2">
+                  <li class="list-group-item">
+                  ID: 4
+                  </li>
+                  <li class="list-group-item">
+                  Email:
+                  <a href="mailto:joe@gmail.com">
+                  joe@gmail.com
+                  </a>
+                  </li>
+                  <li class="list-group-item">
+                  GitHub:
+                  <a href="https://github.com/jsoos">
+                  jsoos
+                  </a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </div>
+  
       </div>
       </div>
       </nav>
@@ -57,8 +170,7 @@ const bodyTemplate = function (templateData) {
     </main>
     <footer class="container text-center py-3">
       <h3 class="text-dark">
-      &copy; ${new Date().getFullYear()} by  <a href="https://github.com/niksharpkings">
-      Niksharpkings</a>
+      &copy; 2022 by
       </h3>
     </footer>
     <script
@@ -80,126 +192,4 @@ referrerpolicy="no-referrer">
 
   </body>
   </html>
-  `
-}
-
-const genManagerCard = function (manager) {
-  return `
-  <div class="col-4 mt-1">
-      <div class="card">
-          <div class="bg-danger card-header text-dark">
-          <h1>
-          <i class="fa-solid fa-user-tie mr-4"></i>
-          &nbsp;Manager
-          </h1>
-              <h2>
-              ${manager.name}
-              </h1>
-          </div>
-          <div class="p-2 bg-dark">
-              <ul class="list-group list-group-flush card my-2">
-                  <li class="list-group-item">
-                  ID: ${manager.id}
-                  </li>
-                  <li class="list-group-item">
-                  Email:
-                  <a href="mailto:${manager.email}">
-                  ${manager.email}
-                  </a>
-                  </li>
-                  <li class="list-group-item">
-                  Office number: ${manager.officeNumber}
-                  </li>
-              </ul>
-          </div>
-      </div>
-  </div>
-  `;
-}
-
-const genEngineerCard = function (engineer) {
-  return `
-  <div class="col-4 mt-1">
-      <div class="card">
-          <div class="bg-warning card-header text-dark">
-          <h1><i class="fa-solid fa-user-gear mr-4"></i>
-          &nbsp;Engineer
-          </h1>
-              <h2>
-              ${engineer.name}
-              </h2>
-          </div>
-          <div class="p-2 bg-dark">
-              <ul class="list-group list-group-flush card my-2">
-                  <li class="list-group-item">
-                  ID: ${engineer.id}
-                  </li>
-                  <li class="list-group-item">
-                  Email:
-                  <a href="mailto:${engineer.email}">
-                  ${engineer.email}
-                  </a>
-                  </li>
-                  <li class="list-group-item">
-                  GitHub:
-                  <a href="https://github.com/${engineer.github}">
-                  ${engineer.github}
-                  </a>
-                  </li>
-              </ul>
-          </div>
-      </div>
-  </div>
-  `;
-}
-
-const genInternCard = function (intern) {
-  return `
-  <div class="col-4 mt-1">
-      <div class="card">
-          <div class="bg-success card-header text-dark">
-          <h1><i class="fa-solid fa-school mr-4"></i>
-          Intern
-          </h1>
-          <h2>
-          ${intern.name}
-          </h2>
-          </div>
-          <div class="p-2 bg-dark">
-              <ul class="list-group list-group-flush card my-2">
-                  <li class="list-group-item">
-                  ID: ${intern.id}
-                  </li>
-                  <li class="list-group-item">
-                  Email:
-                  <a href="mailto:${intern.email}">
-                  ${intern.email}</a>
-                  </li>
-                  <li class="list-group-item">
-                  School: ${intern.school}
-                  </li>
-              </ul>
-          </div>
-      </div>
-  </div>
-  `;
-}
-const generatePage = (writeData) => {
-  const cardArray = [];
-
-  for (const employee of writeData) {
-    const role = employee.getRole();
-    if (role === "Manager") {
-      cardArray.push(genManagerCard(employee));
-    } else if (role === "Engineer") {
-      cardArray.push(genEngineerCard(employee));
-    } else if (role === "Intern") {
-      cardArray.push(genInternCard(employee));
-    }
-  }
-
-  const employeeCards = cardArray.join('');
-  return  bodyTemplate(employeeCards);
-}
-
-module.exports = generatePage;
+  
