@@ -51,11 +51,15 @@ challenge is to build a Node.js command-line application that takes in informati
 -keyboard
 
 #demo
+!!new uploaded the full to youtube
+
+https://youtu.be/iYPtJcDQzSk<VIDEO URL>
+
 <video src="https://user-images.githubusercontent.com/67552318/184282076-841f682b-4278-46a0-b872-4c6185b6df57.mp4"></video>
 https://user-images.githubusercontent.com/67552318/184282076-841f682b-4278-46a0-b872-4c6185b6df57.mp4
 <video src="https://user-images.githubusercontent.com/67552318/184282092-f77b51d8-a91a-4697-9a9c-156078c8793a.mp4"></video>
 https://user-images.githubusercontent.com/67552318/184282092-f77b51d8-a91a-4697-9a9c-156078c8793a.mp4
-<video src="https://github.com/Niksharpkings/Team-Profile-Generator/blob/main/assets/video/2022-08-11-20-45-07.mp4"></video>
+
 
 #gitpages link
 - https://niksharpkings.github.io/Team-Profile-Generator/
