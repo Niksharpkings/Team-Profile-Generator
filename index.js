@@ -10,6 +10,7 @@ const Intern = require("./lib/Intern");
 const generatePage = require("./src/html-page-template");
 const teamGenDataArr = []; //hold all data globally
 console.log(CLOG.clogIntro);
+console.log(CLOG.clogTPG);
 const startTeamGen = () => {//initialize team generator
   console.log(CLOG.clogGTInq)
   return inquirer.prompt([ //prompt user for team generator data
