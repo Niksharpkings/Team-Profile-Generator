@@ -52,7 +52,7 @@ challenge is to build a Node.js command-line application that takes in informati
 
 #demo
 !!new uploaded the full to youtube
-
+[![Watch the video](https://user-images.githubusercontent.com/67552318/184286794-dfe5489c-9e3c-4b15-b536-a0066464bc6f.png)]((https://youtu.be/iYPtJcDQzSk))
 https://youtu.be/iYPtJcDQzSk<VIDEO URL>
 
 <video src="https://user-images.githubusercontent.com/67552318/184282076-841f682b-4278-46a0-b872-4c6185b6df57.mp4"></video>
