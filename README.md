@@ -47,17 +47,17 @@ challenge is to build a Node.js command-line application that takes in informati
 - https://bootcamp.uclaextension.edu/coding/
 
 #used tools
--vsCode
--keyboard
+- vsCode
+- keyboard
 
 
 #how to use
 must have NodeJS installed
-Bash:
-//for jest testing
-$ npm run test
-//for team generator from JavaScript to HTML
-$ node index
+##Bash:
+- //for jest testing
+- $ npm run test
+- //for team generator from JavaScript to HTML
+- $ node index
 
 #demo
 !!new uploaded the full to youtube
